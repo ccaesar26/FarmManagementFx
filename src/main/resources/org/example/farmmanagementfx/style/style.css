@@ -1,0 +1,39 @@
+.welcome-label {
+    -fx-font-size: 24;
+    -fx-font-style: italic;
+}
+
+.form-title {
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+    -fx-pref-height: 40;
+}
+
+.form-container {
+    -fx-padding: 16;
+    -fx-spacing: 8;
+}
+
+.table-column {
+    -fx-font-size: 14;
+    -fx-padding: 6;
+}
+
+.form-button {
+    -fx-font-size: 14;
+    -fx-pref-width: 72;
+}
+
+.form-header {
+    -fx-padding: 8 0;
+}
+
+.form-footer {
+    -fx-padding: 16 0 0 0;
+}
+
+.main-tab {
+    -fx-font-size: 14;
+    -fx-pref-width: 96;
+    -fx-pref-height: 32;
+}

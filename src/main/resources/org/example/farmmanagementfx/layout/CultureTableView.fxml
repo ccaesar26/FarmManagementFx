@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.farmmanagementfx.view.CultureTableView"
+            fx:id="cultureTableView"
+            prefHeight="400.0" prefWidth="600.0"
+            styleClass="form-container">
+    <top>
+        <BorderPane styleClass="form-header">
+            <left>
+                <Label text="Cultures"
+                       styleClass="form-title"/>
+            </left>
+            <right>
+                <Button text="Add"
+                        fx:id="addButton"
+                        styleClass="form-button"/>
+            </right>
+        </BorderPane>
+    </top>
+    <center>
+        <TableView fx:id="cultureTable">
+            <columns>
+                <TableColumn fx:id="nameColumn"
+                             text="Name"
+                             styleClass="table-column"
+                             prefWidth="574"/>
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <FlowPane styleClass="form-footer"
+                  alignment="BOTTOM_RIGHT"
+                  hgap="8">
+            <Button text="Edit"
+                    fx:id="editButton"
+                    styleClass="form-button"/>
+            <Button text="Delete"
+                    fx:id="deleteButton"
+                    styleClass="form-button"/>
+        </FlowPane>
+    </bottom>
+
+    <stylesheets>
+        <URL value="@../style/style.css"/>
+    </stylesheets>
+</BorderPane>
