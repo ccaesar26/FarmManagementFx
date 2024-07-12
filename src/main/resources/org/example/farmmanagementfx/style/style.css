@@ -1,22 +1,37 @@
 .welcome-label {
     -fx-font-size: 24;
-    -fx-font-style: italic;
+    -fx-font-weight: bold;
 }
 
-.form-title {
+.tab-title {
+    -fx-padding: 16 0;
     -fx-font-size: 32;
     -fx-font-weight: bold;
     -fx-pref-height: 40;
 }
 
-.form-container {
-    -fx-padding: 16;
+.form-subtitle {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+.tab-left-container {
+    -fx-padding: 16 16 24 24;
+    -fx-background-color: linear-gradient(from 0% 50% to 100% 50%, rgba(221, 221, 221, 1), rgba(255, 255, 255, 0));
+}
+
+.main-container {
+    -fx-padding: 16 16 16 16;
     -fx-spacing: 8;
 }
 
 .table-column {
     -fx-font-size: 14;
     -fx-padding: 6;
+}
+
+.form-container {
+    -fx-padding: 16 0 0 0;
 }
 
 .form-button {
@@ -28,8 +43,12 @@
     -fx-padding: 8 0;
 }
 
-.form-footer {
-    -fx-padding: 16 0 0 0;
+.form-label {
+    -fx-font-size: 14;
+}
+
+.form-text-field {
+    -fx-font-size: 14;
 }
 
 .main-tab {

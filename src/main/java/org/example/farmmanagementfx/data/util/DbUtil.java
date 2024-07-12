@@ -18,7 +18,7 @@ public class DbUtil {
         if (connection == null) {
             System.out.println("Connection is null");
         } else {
-            System.out.println("Connection is not null");
+            System.out.println("Connection is open");
         }
 
         return connection;

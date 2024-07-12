@@ -6,6 +6,6 @@ module org.example.farmmanagementfx {
 
     opens org.example.farmmanagementfx to javafx.fxml;
     exports org.example.farmmanagementfx;
-    exports org.example.farmmanagementfx.view;
-    opens org.example.farmmanagementfx.view to javafx.fxml;
+    exports org.example.farmmanagementfx.presentation.view;
+    opens org.example.farmmanagementfx.presentation.view to javafx.fxml;
 }
